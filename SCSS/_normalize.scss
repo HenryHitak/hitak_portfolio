@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  background-color: $defaultBackgroundColor;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  font-family: $defaultFont;
+  color: $defaulFontColor;
+  background-color: $defaultBackgroundColor;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  h2 {
+    border-bottom: 1px solid $defaultColor1;
+    width: fit-content;
+    text-align: center;
+  }
+}
+
+footer {
+  font-family: $defaultFont;
+  color: $defaulFontColor;
+  background-color: $defaultBackgroundColor;
+  display: flex;
+  flex-direction: column;
+}
