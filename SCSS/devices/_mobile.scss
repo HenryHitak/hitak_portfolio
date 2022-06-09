@@ -10,11 +10,12 @@
     background-position-y: bottom;
 
     > article {
-      background-color: $defaultBackgroundColor;
-      padding: 4%;
+      padding: 3%;
       display: flex;
       flex-direction: column-reverse;
       justify-content: left;
+      position: fixed;
+      width: 95%;
     }
 
     h1 {
@@ -43,7 +44,6 @@
 
   details {
     width: 80%;
-    position: relative;
     text-align: right;
 
     a {
@@ -117,8 +117,8 @@
   }
   .back-to-top {
     position: fixed;
-    height: 80%;
-    width: 95%;
+    height: 90%;
+    width: 5%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -128,6 +128,7 @@
       border-radius: 50%;
       display: flex;
       justify-content: center;
+      align-items: center;
       width: 4vh;
       height: 4vh;
       font-size: 20px;
