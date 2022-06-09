@@ -1,3 +1,76 @@
-@media (min-width: 700px){
-    
+@media (min-width: 600px) {
+  body {
+    font-size: large;
+  }
+
+  .about {
+    p {
+      text-align: justify;
+    }
+    img {
+      width: 50vh;
+    }
+  }
+  .education {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 20px;
+    aside {
+      display: flex;
+      width: 100%;
+    }
+    article {
+      width: 40%;
+      flex-direction: column;
+      column-gap: 30px;
+    }
+  }
+  .projects {
+    article {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      row-gap: 40px;
+    }
+    .website {
+      width: 40%;
+    }
+
+    article {
+      > .website:nth-child(1) {
+        > h4 {
+          width: 90%;
+        }
+      }
+      > .website:nth-child(2) {
+        > h4 {
+          width: 75%;
+        }
+      }
+      > .website:nth-child(3) {
+        > h4 {
+          width: 50%;
+        }
+      }
+      > .website:nth-child(4) {
+        > h4 {
+          width: 95%;
+        }
+      }
+      > .website:nth-child(5) {
+        > h4 {
+          width: 50%;
+        }
+      }
+      > .website:nth-child(6) {
+        > h4 {
+          width: 90%;
+        }
+      }
+    }
+  }
 }

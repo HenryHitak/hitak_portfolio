@@ -361,6 +361,15 @@ footer {
             flex-direction: column;
     row-gap: 20px;
   }
+  .projects article > .website:nth-child(2) > h4 {
+    width: 60%;
+  }
+  .projects article > .website:nth-child(3) > h4 {
+    width: 40%;
+  }
+  .projects article > .website:nth-child(5) > h4 {
+    width: 40%;
+  }
   .projects div {
     width: 95%;
     display: -webkit-box;
@@ -396,6 +405,7 @@ footer {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    width: 70%;
   }
   .projects a {
     text-decoration: none;
@@ -695,6 +705,85 @@ footer {
   }
   .contact fieldset ::placeholder {
     color: #ccd6f6;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    font-size: large;
+  }
+  .about p {
+    text-align: justify;
+  }
+  .about img {
+    width: 50vh;
+  }
+  .education {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    row-gap: 20px;
+  }
+  .education aside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .education article {
+    width: 40%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-column-gap: 30px;
+            column-gap: 30px;
+  }
+  .projects article {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    row-gap: 40px;
+  }
+  .projects .website {
+    width: 40%;
+  }
+  .projects article > .website:nth-child(1) > h4 {
+    width: 90%;
+  }
+  .projects article > .website:nth-child(2) > h4 {
+    width: 75%;
+  }
+  .projects article > .website:nth-child(3) > h4 {
+    width: 50%;
+  }
+  .projects article > .website:nth-child(4) > h4 {
+    width: 95%;
+  }
+  .projects article > .website:nth-child(5) > h4 {
+    width: 50%;
+  }
+  .projects article > .website:nth-child(6) > h4 {
+    width: 90%;
   }
 }
 /*# sourceMappingURL=stylesheet.css.map */

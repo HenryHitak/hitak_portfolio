@@ -220,6 +220,21 @@
       display: flex;
       flex-direction: column;
       row-gap: 20px;
+      > .website:nth-child(2) {
+        > h4 {
+          width: 60%;
+        }
+      }
+      > .website:nth-child(3) {
+        > h4 {
+          width: 40%;
+        }
+      }
+      > .website:nth-child(5) {
+        > h4 {
+          width: 40%;
+        }
+      }
     }
     div {
       width: 95%;
@@ -240,8 +255,10 @@
         width: fit-content;
         display: flex;
         justify-content: space-between;
+        width: 70%;
       }
     }
+
     a {
       text-decoration: none;
       color: $defaultColor1;
