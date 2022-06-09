@@ -1,1 +1,201 @@
-@media (min-width: 1000px);
+@media (min-width: 1000px) {
+  body {
+    padding: 1%;
+  }
+  section {
+    > h2 {
+      font-size: 40px;
+    }
+    > h4 {
+      font-size: 20px;
+    }
+  }
+
+  header {
+    height: 75vh;
+    background-size: 50vh 50vh;
+    background-position: relative;
+    h1 {
+      font-size: 40px;
+    }
+    article {
+      position: relative;
+    }
+    nav {
+      z-index: 1;
+      padding: 1%;
+    }
+    nav > ul {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    nav li {
+      list-style-type: none;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+      &:hover {
+        box-shadow: 3px 3px 3px 3px $defaultBackgroundColor;
+      }
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      text-align: center;
+      padding: 5%;
+      font-weight: 500;
+      font-size: 20px;
+      width: 100%;
+    }
+    details {
+      display: none;
+    }
+  }
+  div {
+    h4 {
+      font-size: 20px;
+    }
+  }
+  footer {
+    flex-direction: row;
+    font-size: medium;
+    div > a {
+      font-size: 30px;
+    }
+  }
+  .back-to-top {
+    width: 95%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+  }
+  .about {
+    > h2 {
+      font-size: 40px;
+    }
+    h4 {
+      font-size: 25px;
+    }
+    p {
+      font-size: 20px;
+    }
+    fieldset {
+      padding: 1%;
+      font-size: 25px;
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+  .projects {
+    h4 {
+      font-size: 25px;
+    }
+    img {
+      width: 40vh;
+      height: 30vh;
+    }
+    article {
+      row-gap: 50px;
+      > .website:nth-child(1) {
+        > h4 {
+          width: 50%;
+        }
+      }
+      > .website:nth-child(2) {
+        > h4 {
+          width: 45%;
+        }
+      }
+      > .website:nth-child(3) {
+        > h4 {
+          width: 30%;
+        }
+      }
+      > .website:nth-child(4) {
+        > h4 {
+          width: 55%;
+        }
+      }
+      > .website:nth-child(5) {
+        > h4 {
+          width: 30%;
+        }
+      }
+      > .website:nth-child(6) {
+        > h4 {
+          width: 50%;
+        }
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .skills {
+    article {
+      h4 {
+        font-size: 25px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .education {
+    font-size: medium;
+    article {
+      width: 20%;
+      h4 {
+        font-size: 25px;
+      }
+      p {
+        font-size: 20px;
+      }
+      details {
+        font-size: 18px;
+      }
+      div {
+        row-gap: 20px;
+      }
+      img {
+        width: 20vh;
+        height: 10vh;
+      }
+    }
+  }
+
+  .education {
+    font-size: 20px;
+    article {
+      h2 {
+        font-size: 40px;
+      }
+      h4 {
+        font-size: 20px;
+      }
+    }
+  }
+  .contact {
+    font-size: 20px;
+    article {
+      h2 {
+        font-size: 40px;
+      }
+      h4 {
+        font-size: 20px;
+      }
+    }
+    fieldset,
+    input,
+    textarea,
+    label {
+      font-size: large;
+    }
+  }
+}
