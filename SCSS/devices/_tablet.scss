@@ -2,6 +2,11 @@
   body {
     font-size: large;
   }
+  header {
+    [class*="fa-bars"] {
+      font-size: 20px;
+    }
+  }
 
   .about {
     p {
@@ -10,6 +15,10 @@
     img {
       width: 50vh;
     }
+  }
+  .back-to-top {
+    width: 1%;
+    margin-left: 95%;
   }
   .education {
     display: flex;

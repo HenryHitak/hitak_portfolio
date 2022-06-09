@@ -22,7 +22,6 @@
       position: relative;
     }
     nav {
-      z-index: 1;
       padding: 1%;
     }
     nav > ul {
@@ -67,10 +66,23 @@
     }
   }
   .back-to-top {
-    width: 95%;
-    background-size: contain;
+    margin-left: 95%;
+    height: 80%;
+    display: flex;
+    align-items: flex-end;
+    position: fixed;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: transparent;
+    a {
+      border-radius: 0;
+      width: 5vh;
+      height: 5vh;
+      font-size: 30px;
+    }
+    a:hover {
+      background-color: $defaultBackgroundColor;
+    }
   }
   .about {
     > h2 {
@@ -100,6 +112,10 @@
     }
     article {
       row-gap: 50px;
+      h4:hover {
+        color: $defaultColor1;
+        cursor: pointer;
+      }
       > .website:nth-child(1) {
         > h4 {
           width: 50%;
@@ -137,6 +153,9 @@
   }
 
   .skills {
+    p {
+      font-size: 20px;
+    }
     article {
       h4 {
         font-size: 25px;
@@ -148,17 +167,22 @@
   }
 
   .education {
-    font-size: medium;
+    font-size: 20px;
     article {
       width: 20%;
+      padding: 1%;
+      h2 {
+        font-size: 40px;
+      }
       h4 {
-        font-size: 25px;
+        font-size: 20px;
       }
       p {
         font-size: 20px;
       }
       details {
         font-size: 18px;
+        padding: 1%;
       }
       div {
         row-gap: 20px;
@@ -167,20 +191,13 @@
         width: 20vh;
         height: 10vh;
       }
+      details:hover {
+        color: $defaultColor1;
+        cursor: pointer;
+      }
     }
   }
 
-  .education {
-    font-size: 20px;
-    article {
-      h2 {
-        font-size: 40px;
-      }
-      h4 {
-        font-size: 20px;
-      }
-    }
-  }
   .contact {
     font-size: 20px;
     article {
@@ -196,6 +213,9 @@
     textarea,
     label {
       font-size: large;
+    }
+    [type="submit"]:hover {
+      background-color: $defaultBackgroundarticle;
     }
   }
 }
