@@ -925,22 +925,34 @@ footer {
     cursor: pointer;
   }
   .projects article > .website:nth-child(1) > h4 {
-    width: 50%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
   .projects article > .website:nth-child(2) > h4 {
-    width: 45%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
   .projects article > .website:nth-child(3) > h4 {
-    width: 30%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
   .projects article > .website:nth-child(4) > h4 {
-    width: 55%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
   .projects article > .website:nth-child(5) > h4 {
-    width: 30%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
   .projects article > .website:nth-child(6) > h4 {
-    width: 50%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
   .projects article p {
     font-size: 20px;
@@ -987,6 +999,9 @@ footer {
   }
   .contact {
     font-size: 20px;
+  }
+  .contact fieldset {
+    height: unset;
   }
   .contact article h2 {
     font-size: 40px;

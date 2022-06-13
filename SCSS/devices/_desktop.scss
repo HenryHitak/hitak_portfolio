@@ -118,32 +118,32 @@
       }
       > .website:nth-child(1) {
         > h4 {
-          width: 50%;
+          width: fit-content;
         }
       }
       > .website:nth-child(2) {
         > h4 {
-          width: 45%;
+          width: fit-content;
         }
       }
       > .website:nth-child(3) {
         > h4 {
-          width: 30%;
+          width: fit-content;
         }
       }
       > .website:nth-child(4) {
         > h4 {
-          width: 55%;
+          width: fit-content;
         }
       }
       > .website:nth-child(5) {
         > h4 {
-          width: 30%;
+          width: fit-content;
         }
       }
       > .website:nth-child(6) {
         > h4 {
-          width: 50%;
+          width: fit-content;
         }
       }
       p {
@@ -200,6 +200,9 @@
 
   .contact {
     font-size: 20px;
+    fieldset {
+      height: unset;
+    }
     article {
       h2 {
         font-size: 40px;
