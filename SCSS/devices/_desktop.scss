@@ -112,6 +112,11 @@
     }
     article {
       row-gap: 50px;
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
       h4:hover {
         color: $defaultColor1;
         cursor: pointer;
